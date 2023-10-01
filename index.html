@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me - Abhinav Singh</title>
     <!-- add meta description and content for better seo -->
+    <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
@@ -25,7 +26,23 @@
 
     <nav id="hamburger-nav">
       <div class="logo">Abhinav Singh</div>
-      <div class="hamburger-menu">
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger" onclick="toggleMenu2()" ><div></div></div>
+        <div class="menu">
+              <div>
+                  <div>
+                          <ul>
+                              <li><a href="#about" onclick="toggleMenu2()">About Me</a></li>
+                              <li><a href="#skills" onclick="toggleMenu2()">Skills</a></li>
+                              <li><a href="#projects" onclick="toggleMenu2()">Projects</a></li>
+                              <li><a href="#contact" onclick="toggleMenu2()">Contact</a></li>
+                          </ul>
+                      </div>
+              </div>
+        </div>
+      </div>
+      <!-- <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
           <span></span>
@@ -38,7 +55,7 @@
           <li><a href="#blogs" onclick="toggleMenu()">Blogs</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
-      </div>
+      </div> -->
     </nav>
 
     <section id="profile">

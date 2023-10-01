@@ -68,11 +68,12 @@ a:hover{
 }
 
 /* Hamburger Menu */
+/* Not using currently */
 
 #hamburger-nav {
     display: none;
 }
-
+/* 
 .hamburger-menu {
     position: relative;
     display: inline-block;
@@ -145,7 +146,7 @@ a:hover{
 
 .hamburger-icon span:last-child{
     transform: none;
-}
+} */
 
 
 /* sections */
